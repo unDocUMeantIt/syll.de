@@ -13,14 +13,14 @@ Due to some restrictions on CRAN, the full package sources are only available fr
 Installation of tha latest stable release is fairly easy, it's available from the project's own repository:
 
 ```r
-install.packages("sylly.de", repo="https://reaktanz.de/R")
+install.packages("sylly.de", repo="https://undocumeantit.github.io/repos/l10n")
 ```
 
-To automatically get updates, consider adding the repository to your R configuration.  You might also
-want to subscribe to the package's [RSS feed](https://reaktanz.de/R/pckg/sylly.de/RSS.xml) to get notified of new releases.
+To automatically get updates, consider [adding the repository to your R configuration](https://undocumeantit.github.io/repos).  You might also
+want to subscribe to the package's [RSS feed](https://undocumeantit.github.io/repos/l10n/pckg/sylly.de/RSS.xml) to get notified of new releases.
 
 If you're running a Debian based operating system, you might be interested in the
-[precompiled *.deb packages](https://reaktanz.de/R/pckg/sylly.de/deb_repo.html).
+[precompiled *.deb packages](https://undocumeantit.github.io/repos/l10n/pckg/sylly.de/deb_repo.html).
 
 ### Installation via GitHub
 

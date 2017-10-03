@@ -19,5 +19,5 @@ BugReports: https://github.com/unDocUMeantIt/sylly.de/issues
 Authors@R: c(person(given="Meik", family="Michalke",
         email="meik.michalke@hhu.de", role=c("aut", "cre")))
 Version: 0.1-2
-Date: 2017-06-10
+Date: 2017-10-03
 RoxygenNote: 6.0.1

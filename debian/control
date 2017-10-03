@@ -1,13 +1,13 @@
-Source: r-other-reaktanz-sylly.de
+Source: r-other-undocumeantit-sylly.de
 Section: gnu-r
 Priority: optional
-Maintainer: m.eik michalke <meik.michalke@hhu.de>
-Build-Depends-Indep: debhelper (>> 7.0.0), r-base-dev (>= 3.1.0), cdbs,
+Maintainer: Meik Michalke <meik.michalke@hhu.de>
+Build-Depends-Indep: debhelper (>> 9.0.0), r-base-dev (>= 3.1.0), cdbs,
  r-cran-sylly | r-other-reaktanz-sylly
 Standards-Version: 3.9.3.1
 Homepage: http://reaktanz.de/?c=hacking&s=koRpus
 
-Package: r-other-reaktanz-sylly.de
+Package: r-other-undocumeantit-sylly.de
 Architecture: all
 Section: gnu-r
 Depends: r-base-core (>= 3.4.0), r-cran-sylly | r-other-reaktanz-sylly

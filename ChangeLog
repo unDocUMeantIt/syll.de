@@ -1,8 +1,9 @@
 ChangeLog for package sylly.de
 
-changes in version 0.1-2 (2017-06-10)
-unreleased:
-  - this release is under development
+changes in version 0.1-2 (2017-10-02)
+changed:
+  - initial release via l10n repo
+  - changed respective references and URLs accordingly
 
 changes in version 0.1-1 (2017-06-10)
 changed:
