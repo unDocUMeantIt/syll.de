@@ -1,17 +1,21 @@
 # sylly.de
 
 Adds support for the German language to the [sylly](https://github.com/unDocUMeantIt/sylly) package.
-Due to some restrictions on CRAN, the full package sources are only available from the
-[project homepage](http://reaktanz.de/?c=hacking&s=koRpus).
 
 ## Installation
 
 ### Installation from the official l10n repository
 
-Installation of the latest stable release is fairly easy, it's available from the project's own repository:
+The latest stable release can be installed directly from the project's own repository:
 
 ```r
-install.packages("sylly.de", repo="https://undocumeantit.github.io/repos/l10n")
+install.packages(
+  "sylly.de",
+  repo=c(
+    getOption("repos"),
+    l10n="https://undocumeantit.github.io/repos/l10n"
+  )
+)
 ```
 
 To automatically get updates, consider [adding the repository to your R configuration](https://undocumeantit.github.io/repos).  You might also
@@ -42,7 +46,7 @@ branch will be rejected, as it is reserved for the current stable release.
 
 ## License
 
-sylly.de Copyright (C) 2017 Meik Michalke <meik.michalke@hhu.de>
+sylly.de Copyright (C) 2017-2018 Meik Michalke <meik.michalke@hhu.de>
 
 sylly.de is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
