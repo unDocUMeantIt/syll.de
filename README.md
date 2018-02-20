@@ -6,9 +6,9 @@ Due to some restrictions on CRAN, the full package sources are only available fr
 
 ## Installation
 
-### Development releases via the project repository
+### Installation from the official l10n repository
 
-Installation of tha latest stable release is fairly easy, it's available from the project's own repository:
+Installation of the latest stable release is fairly easy, it's available from the project's own repository:
 
 ```r
 install.packages("sylly.de", repo="https://undocumeantit.github.io/repos/l10n")
